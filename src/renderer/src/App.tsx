@@ -67,7 +67,7 @@ const ModeSelection: React.FC<{ onSelect: (mode: 'standard' | 'simple') => Promi
                   <Button
                     key={mode}
                     variant="flat"
-                    color={mode === 'simple' ? 'primary' : 'default'}
+                    color={mode === 'standard' ? 'primary' : 'default'}
                     className="h-auto min-h-24 w-full min-w-0 shrink-0 justify-start gap-4 border border-default-200 px-4 py-4 whitespace-normal"
                     aria-labelledby={`operation-mode-${mode}-label`}
                     aria-describedby={`operation-mode-${mode}-description`}
